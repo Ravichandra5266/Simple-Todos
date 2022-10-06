@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.li-card-container {
+  list-style: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  color: #000000;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+}
+@media (max-width: 576px) {
+  .title {
+    font-size: 12px;
+  }
+}
+.btn {
+  background-color: #ffffff;
+  color: #ff0b37;
+  border-radius: 8px;
+  border-color: #ff0b37;
+  border-width: 1px;
+  height: 30px;
+  margin-right: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+  outline: none;
+}
